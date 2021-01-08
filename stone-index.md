@@ -49,7 +49,8 @@ Since an index token is just an ERC20, it can be listed anywhere. Therefore user
 Alternatively if user wants to redeem the underlying index, they can choose to deposit the index token back into the smart contract. Subsequently the underlying tokens would be sent back to the user’s wallet.
 
 * MockUI
-![Stone Index for DOT] (https://github.com/RockX-SG/stone-index/blob/master/images/stone-index-ui.jpg)
+
+![Stone Index for DOT](https://github.com/RockX-SG/stone-index/blob/master/images/stone-index-ui.jpg)
 
 ## Team :busts_in_silhouette:
 
