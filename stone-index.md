@@ -38,13 +38,13 @@ There are 3 high level components for Stone Index:
 
 Stone Index essentially is a collateralised asset that allows the community to combine different tokens and form an index basket. Having an indexed basket makes diversified investment easier for the masses.
 
-1.Create an index
+* Create an index
 The creator of the index create a Substrate pallet that defines the composition of the basket. The Stone Team will manage these baskets(aDOT, bDOT and other liquid tokens) and indexes(iDOT) in this proposal.
 
-2.Purchase an index
+* Purchase an index
 Users can select to purchase from the indexed basket. They can purchase with aDOT, bDOT which would then automatically convert it to the underlying basket composition using DEX.
 
-3. Redeem an index
+* Redeem an index
 Alternatively if user wants to redeem the underlying index, they can choose to deposit the index token back into the Stone Platform. Subsequently the underlying tokens would be sent back to the user’s wallet.
 
 #### MockUI
@@ -107,6 +107,9 @@ Upon the completion of Milestone 1, the team will potentially add more functions
 Stone Index will be part of Stone Platform, and this grant program is the very first attempt of extent to Polkadot ecosystem in Stone Platform. The Stone team will continuously add more valuable instruments, and the team is aware that more and more teams and projects are rushing into Polkadot ecosystem, so we'll keep an eye on the new initiatives, and onboard those legitimate assets once they are ready
 
 ## Additional Information :heavy_plus_sign: 
-RockX(https://rockx.com) founded by veterans and hardcore developers in Blockchain space, Rockx has been developing critical tools and applications for various Blockchains. RockX team is actively involved in building a better blockchain community and won quite some grants last year, the 2 examples are: Algorand IDE(https://algorand.rockx.com/) and Oasis Web Wallet(https://oasis-wallet.rockx.com). RockX helps the Stone Team to build the Stone Platform and bring Stone Platform to multiple blockchain platforms, so that allow Stone Platform users with one stop investment solution and the best user experience.
+RockX(https://rockx.com) founded by veterans and hardcore developers in Blockchain space, Rockx has been developing critical tools and applications for various Blockchains. RockX team is actively involved in building a better blockchain community and won quite some grants last year, the 2 examples are: 
+* Algorand IDE(https://algorand.rockx.com/)
+* Oasis Web Wallet(https://oasis-wallet.rockx.com). 
+RockX helps the Stone Team to build the Stone Platform and bring Stone Platform to multiple blockchain platforms, so that allow Stone Platform users with one stop investment solution and the best user experience.
 
 
