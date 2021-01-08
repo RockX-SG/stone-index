@@ -110,6 +110,7 @@ Stone Index will be part of Stone Platform, and this grant program is the very f
 RockX(https://rockx.com) founded by veterans and hardcore developers in Blockchain space, Rockx has been developing critical tools and applications for various Blockchains. RockX team is actively involved in building a better blockchain community and won quite some grants last year, the 2 examples are: 
 * Algorand IDE(https://algorand.rockx.com/)
 * Oasis Web Wallet(https://oasis-wallet.rockx.com). 
+
 RockX helps the Stone Team to build the Stone Platform and bring Stone Platform to multiple blockchain platforms, so that allow Stone Platform users with one stop investment solution and the best user experience.
 
 
