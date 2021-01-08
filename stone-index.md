@@ -18,35 +18,34 @@ Thanks to Polkadot's cross-chain protocol makes them the perfect blockchain to b
 
 Stone Index is a decentralized instrument running on Stone platform (https://stonedefi.io), Stone platform is a yield maximisation protocol and asset aggregation platform of multiple strategies including Ethereum(both 1.0 and 2.0), Polkadot, Solana and so on, Stone Index will be a latest strategy to be added into Stone platform and open to all Stone users
 
-The project will be broken down into multiple phases and we'll focus on the first phase, which is dedicated to liquid staked DOT, e.g. aDOT, bDOT and etc. from various providers, to create sDOT, which combines the total liquidity of the fragmented markets
-
-There are 3 high level components for Stone Index for phase 1:
-
-* One or more parachain on Polkadot for providing liquidity of staking tokens, e.g. aDOT, bDOT
-* One parachain on Polkadot for Polkadot's interoperability
-* Stone platform (UI/UX and pool management) including pool creation and rebalance
+The project will be broken down into multiple phases and we'll focus on the first phase, which is dedicated to liquid staked DOT, e.g. aDOT, bDOT and etc. from various providers, to create iDOT, which combines the total liquidity of the fragmented markets
 
 ### Project Details 
 
 * High level architecture
 
-![Stone index architecture](https://github.com/RockX-SG/stone-index/blob/master/images/stone_index_architecture.jpg)
+![Stone index architecture](https://github.com/RockX-SG/stone-index/blob/master/images/stone-index-architecture.jpg)
+
+There are 3 high level components for Stone Index for phase 1:
+
+* Stone platform on Substrate(UI/UX and indexed basket management), including WebUI and a set of Substrate pallets
+* One or more parachain on Polkadot for providing liquidity of staking tokens, e.g. aDOT, bDOT
+* One parachain based DEX on Polkadot for Polkadot's interoperability
+
+* System flow
+
+![Stone index sys flow](https://github.com/RockX-SG/stone-index/blob/master/images/stone-index-system-flow.jpg)
 
 Stone Index essentially is a collateralised asset that allows the community to combine different tokens and form an index basket. Having an indexed basket makes diversified investment easier for the masses.
 
 1.Create an index
-The creator of the index has to deploy a smart contract that defines the composition of the basket. While similar baskets can be created, it is up to the basket owner to market and share his basket. Being the owner of the basket allows the creator to earn fees.
-
-Subsequently to complete the creation of the basket, an underlying composition of the basket has to be deposited to the smart contract. This is similar to creating a uniswap pool.
+The creator of the index create a Substrate pallet that defines the composition of the basket. The Stone Team will manage these baskets(aDOT, bDOT and other liquid tokens) and indexes(iDOT) in this proposal.
 
 2.Purchase an index
-Users can select to purchase from various indexed basket. They can purchase with stablecoins which would then automatically convert it to the underlying basket composition using DEX.
+Users can select to purchase from the indexed basket. They can purchase with aDOT, bDOT which would then automatically convert it to the underlying basket composition using DEX.
 
-3.Trade an index token
-Since an index token is just an ERC20, it can be listed anywhere. Therefore users can trade it on any DEX that they desire to enter or exit the market.
-
-4. Redeem an index
-Alternatively if user wants to redeem the underlying index, they can choose to deposit the index token back into the smart contract. Subsequently the underlying tokens would be sent back to the user’s wallet.
+3. Redeem an index
+Alternatively if user wants to redeem the underlying index, they can choose to deposit the index token back into the Stone Platform. Subsequently the underlying tokens would be sent back to the user’s wallet.
 
 * MockUI
 
