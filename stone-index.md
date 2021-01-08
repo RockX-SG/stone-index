@@ -34,7 +34,7 @@ There are 3 high level components for Stone Index for phase 1:
 
 * System flow
 
-![Stone index sys flow](https://github.com/RockX-SG/stone-index/blob/master/images/stone-index-system-flow.jpg)
+![Stone index sys flow](https://github.com/RockX-SG/stone-index/blob/master/images/stone-index-system-flow.png)
 
 Stone Index essentially is a collateralised asset that allows the community to combine different tokens and form an index basket. Having an indexed basket makes diversified investment easier for the masses.
 
